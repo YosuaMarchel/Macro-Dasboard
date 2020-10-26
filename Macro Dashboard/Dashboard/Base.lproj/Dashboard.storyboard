@@ -37,50 +37,48 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Backyard Plants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fD-YC-KSM">
-                                                    <rect key="frame" x="38.5" y="26" width="159.5" height="27.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <rect key="frame" x="35.5" y="25" width="193" height="33.5"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tomato" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZw-xq-ZcX">
-                                                    <rect key="frame" x="38.5" y="73.5" width="57.5" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="35.5" y="68.5" width="57.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 Days until Harvest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glV-3x-a1x">
-                                                    <rect key="frame" x="38.5" y="99" width="163" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="35.5" y="94" width="163" height="20.5"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="745-vQ-fId">
-                                                    <rect key="frame" x="327" y="59.5" width="42" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alert - Green" translatesAutoresizingMaskIntoConstraints="NO" id="UgM-cp-dgr">
+                                                    <rect key="frame" x="338.5" y="60" width="50" height="20"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="glV-3x-a1x" firstAttribute="top" secondItem="OZw-xq-ZcX" secondAttribute="bottom" constant="5" id="7be-Fu-ZeC"/>
                                                 <constraint firstItem="YBk-bj-YMh" firstAttribute="width" secondItem="f6s-kE-mwb" secondAttribute="width" multiplier="0.9" id="Amx-1l-ye0"/>
                                                 <constraint firstItem="YBk-bj-YMh" firstAttribute="top" secondItem="f6s-kE-mwb" secondAttribute="top" constant="10" id="Cux-7D-Ihl"/>
-                                                <constraint firstItem="OZw-xq-ZcX" firstAttribute="top" secondItem="1fD-YC-KSM" secondAttribute="bottom" constant="20" id="NDN-lb-jxc"/>
-                                                <constraint firstItem="1fD-YC-KSM" firstAttribute="top" secondItem="YBk-bj-YMh" secondAttribute="top" constant="16" id="RgQ-mO-uS1"/>
-                                                <constraint firstItem="glV-3x-a1x" firstAttribute="leading" secondItem="YBk-bj-YMh" secondAttribute="leading" constant="18" id="YIl-GD-5eL"/>
-                                                <constraint firstItem="745-vQ-fId" firstAttribute="centerY" secondItem="YBk-bj-YMh" secondAttribute="centerY" id="ZJh-zy-fU9"/>
+                                                <constraint firstItem="OZw-xq-ZcX" firstAttribute="top" secondItem="1fD-YC-KSM" secondAttribute="bottom" constant="10" id="NDN-lb-jxc"/>
+                                                <constraint firstItem="1fD-YC-KSM" firstAttribute="top" secondItem="YBk-bj-YMh" secondAttribute="top" constant="15" id="RgQ-mO-uS1"/>
+                                                <constraint firstItem="glV-3x-a1x" firstAttribute="leading" secondItem="YBk-bj-YMh" secondAttribute="leading" constant="15" id="YIl-GD-5eL"/>
+                                                <constraint firstItem="YBk-bj-YMh" firstAttribute="bottom" secondItem="UgM-cp-dgr" secondAttribute="bottom" constant="50" id="Zfr-vb-8ZC"/>
                                                 <constraint firstAttribute="bottom" secondItem="YBk-bj-YMh" secondAttribute="bottom" constant="10" id="bic-ni-tFo"/>
-                                                <constraint firstItem="1fD-YC-KSM" firstAttribute="leading" secondItem="YBk-bj-YMh" secondAttribute="leading" constant="18" id="cYJ-Aw-Mfl"/>
-                                                <constraint firstItem="OZw-xq-ZcX" firstAttribute="leading" secondItem="YBk-bj-YMh" secondAttribute="leading" constant="18" id="fBl-RC-cIy"/>
+                                                <constraint firstItem="1fD-YC-KSM" firstAttribute="leading" secondItem="YBk-bj-YMh" secondAttribute="leading" constant="15" id="cYJ-Aw-Mfl"/>
+                                                <constraint firstItem="OZw-xq-ZcX" firstAttribute="leading" secondItem="YBk-bj-YMh" secondAttribute="leading" constant="15" id="fBl-RC-cIy"/>
+                                                <constraint firstItem="UgM-cp-dgr" firstAttribute="top" secondItem="YBk-bj-YMh" secondAttribute="top" constant="50" id="gml-iI-nzX"/>
+                                                <constraint firstItem="YBk-bj-YMh" firstAttribute="trailing" secondItem="UgM-cp-dgr" secondAttribute="trailing" constant="5" id="mLf-Fp-Lwg"/>
                                                 <constraint firstItem="YBk-bj-YMh" firstAttribute="centerX" secondItem="f6s-kE-mwb" secondAttribute="centerX" id="mTe-cQ-1rD"/>
-                                                <constraint firstItem="YBk-bj-YMh" firstAttribute="trailing" secondItem="745-vQ-fId" secondAttribute="trailing" constant="24.5" id="rlv-YW-N0l"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="containerNameLabel" destination="1fD-YC-KSM" id="1jl-5n-pVu"/>
                                             <outlet property="dayCountdownLabel" destination="glV-3x-a1x" id="TcK-d5-9DV"/>
                                             <outlet property="plantTypeLabel" destination="OZw-xq-ZcX" id="4aa-MY-3WR"/>
-                                            <outlet property="sensorStatusLabel" destination="745-vQ-fId" id="Mab-7s-asA"/>
+                                            <outlet property="sensorStatusImage" destination="UgM-cp-dgr" id="CT4-Ti-SsW"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -153,6 +151,7 @@
     </scenes>
     <resources>
         <image name="Add Button" width="400" height="400"/>
+        <image name="Alert - Green" width="50" height="50"/>
         <image name="Arrow" width="200" height="400"/>
         <image name="Plant card" width="380" height="120"/>
     </resources>

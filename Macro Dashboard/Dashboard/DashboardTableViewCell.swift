@@ -13,7 +13,7 @@ class DashboardTableViewCell: UITableViewCell {
     @IBOutlet weak var containerNameLabel: UILabel!
     @IBOutlet weak var plantTypeLabel: UILabel!
     @IBOutlet weak var dayCountdownLabel: UILabel!
-    @IBOutlet weak var sensorStatusLabel: UILabel!
+    @IBOutlet weak var sensorStatusImage: UIImageView!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -26,7 +26,7 @@ class DashboardTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func cellConfig(withName: [String], currentIndex: Int, type: [String], day: [String], sensor: [String]) {
+    func cellConfig(withName: [String], currentIndex: Int, type: [String], day: [String], sensor: [UIImage]) {
         let containerName = withName[currentIndex]
         let plantType = type[currentIndex]
         let day = day[currentIndex]
@@ -35,7 +35,7 @@ class DashboardTableViewCell: UITableViewCell {
         containerNameLabel.text = containerName
         plantTypeLabel.text = plantType
         dayCountdownLabel.text = day
-        sensorStatusLabel.text = sensor
+        sensorStatusImage.image = sensor
         
     }
 

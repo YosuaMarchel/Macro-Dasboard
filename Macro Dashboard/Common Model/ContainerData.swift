@@ -7,12 +7,13 @@
 //
 
 import Foundation
+import UIKit
 
 class ContainerData {
 
     var name: [String] = ["Backyard Plants", "Balcony floor2", "Secret lair garden"]
     var plantType: [String] = ["Tomato", "Bok Choi", "Celery"]
-    var day: [String] = ["20 Days", "10 Days", "Harvest time"]
-    var sensorStatus: [String] = ["Yes", "No", "Yes"]
+    var day: [String] = ["20 Days until Harvest", "10 Days until Harvest", "Harvestable now!"]
+    var sensorStatus: [UIImage] = [#imageLiteral(resourceName: "Alert - Green"), #imageLiteral(resourceName: "Alert - Red"), #imageLiteral(resourceName: "Alert - Harvest")]
     
 }

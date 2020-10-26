@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Plant card2.png",
+      "filename" : "Alert - Red.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Alert - Red@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Alert - Red@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

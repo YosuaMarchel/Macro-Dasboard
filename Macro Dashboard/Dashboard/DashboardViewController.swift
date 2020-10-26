@@ -15,7 +15,7 @@ class DashboardViewController: UIViewController {
     private var containerName: [String] = []
     private var plantType: [String] = []
     private var dayCount: [String] = []
-    private var sensorStat: [String] = []
+    private var sensorStat: [UIImage] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
